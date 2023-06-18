@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="c06ff4498d0a4e088a94e00853776efb (1).png" alt="Competitive Landscaping Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div>
+            <h1>Free Estimate Tool</h1>
+            <h3>How many square feet of turf is your yard?</h3>
+            <form>
+                Square Feet of Turf : <input type="text" id="fn" /><br>
+
+                <input type="button" onClick="calculate()" Value="Calculate" />
+            </form>
+
+            <p>The Result is : <br>
+                $<span id = "result"></span>
+            </p>
+        </div>
+        <script>
+           function calculate()
+           {
+                square_feet_of_turf = document.getElementById("fn").value;
+                document.getElementById("result").innerHTML = (square_feet_of_turf * 0.01).toFixed(2);
+           }
+       </script>
+    </div>
+</body>
+</html>

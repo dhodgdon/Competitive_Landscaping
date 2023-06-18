@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="c06ff4498d0a4e088a94e00853776efb (1).png" alt="Competitive Landscaping Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div>
+            <h1>Welcome to Competitive Landscaping!</h1>
+            <h2>The best option for your landscaping needs!</h2>
+            <h3>Frequently Asked Questions:</h3>
+            <button class="accordion">How much will it cost me to have the yard of my dreams?</button>
+            <div class="panel">
+                <p>We are a premium landscaping company and offer only the highest quality of service. For an free estimate, click the tool below!</p>
+                <a href="estimate.html">Free Estimate</a>
+            </div>
+
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <p>Lorem ipsum...</p>
+            </div>
+
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p>Lorem ipsum...</p>
+            </div>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+            </script>
+    </div>
+</body>
+</html>
