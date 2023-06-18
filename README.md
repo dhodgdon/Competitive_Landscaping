@@ -6,7 +6,7 @@ The first project is a file containing a function that recursively adds the item
 
 The second project is the beginnings of a website for a new landscaping business. There is an accordion menu created using JavaScript on the home page, the code for which I used from W3Schools (with my own styling). There is also a simple cost estimate calculator (also created with JavaScript) that can be found by clicking on the first item in the accordion menu and following the link.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/ya8kERrRapc)
 
 # Development Environment
 
