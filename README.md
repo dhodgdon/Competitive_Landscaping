@@ -1,10 +1,10 @@
 # Overview
 
-This repository holds two different javascript projects that I created to improve my JavaScript skills.
+Note: This project is still in development and is not complete. 
 
-The first project is a file containing a function that recursively adds the items in an array. It also contains some native array ES6 functions.
+I created this project to improve my JavaScript skills and help a new start-up business.
 
-The second project is the beginnings of a website for a new landscaping business. There is an accordion menu created using JavaScript on the home page, the code for which I used from W3Schools (with my own styling). There is also a simple cost estimate calculator (also created with JavaScript) that can be found by clicking on the first item in the accordion menu and following the link.
+This project is a website for a new landscaping business. There is an accordion menu created using JavaScript on the home page, the code for which I used from W3Schools (with my own styling). There is also a simple cost estimate calculator (also created with JavaScript) that can be found by clicking on the first item in the accordion menu and following the link. There is a Contact Us page that has a form, but it is not yet connected to an email, which I plan to do in the near future (see the list of Future Work below).
 
 [Software Demo Video](https://youtu.be/ya8kERrRapc)
 
@@ -13,19 +13,19 @@ The second project is the beginnings of a website for a new landscaping business
 * Visual Studio Code
 * Git / GitHub
 * Programming languages: Javascript, CSS, HTML
-* Libraries: 
-    * Node
 
 # Useful Websites
 
 - [W3 Schools, How To - Collapsibles/Accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)
-- [write a JavaScript program to calculate multiplication and division of two numbers (input from a user)](https://tutorial.eyehunts.com/js/write-a-javascript-program-to-calculate-multiplication-and-division-of-two-numbers-input-from-a-user/)
-- [8 Most Used Array Operations in JavaScript (ES6+)](https://everyday.codes/javascript/8-most-used-array-operations-in-javascript-es6/)
-- [9 New Array Functions in ES6](https://vegibit.com/new-array-functions-in-es6/#:~:text=9%20New%20Array%20Functions%20in%20ES6%201%201.,...%208%208.%20Array.keys%20%28%29%20...%20More%20items)
+- [W3 Schools, How To - Responsive Pricing Table](https://www.w3schools.com/howto/howto_css_pricing_table.asp)
+- [W3 Schools, How To - Side Navigation](https://www.w3schools.com/howto/howto_js_sidenav.asp)
+- [Call Now Button, Ji Quit](https://codepen.io/jiQuit/pen/JMeyvZ)
+
 
 # Future Work
 
-- Add CSS formatting and content to all pages.
-- Add a "Contact Us" form and connect it to an email.
+- Finish formatting all pages.
+- Connect Contact form to email using email js.
 - Add before/after pictures of landscaping projects to home page (or about us page)
 - Add customer reviews to home page.
+- Add any content as specified by the business.
