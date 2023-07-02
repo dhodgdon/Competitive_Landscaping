@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/comp_landscaping.png" alt="Competitive Landscaping Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <hr>
+                <h1>Welcome to Competitive Landscaping!</h1>
+                <hr>
+                <h2>The best option for your landscaping needs!</h2>
+                <h2>Plus... Spring Sale - 10% off!!</h2>
+                <h3>Frequently Asked Questions:</h3>
+                <hr>
+                <button class="accordion">How much will it cost me to have the yard of my dreams?</button>
+                <div class="panel">
+                    <p>We are a premium landscaping company and offer only the highest quality of service. Our <a href="estimate.html">Free Estimate</a> tool can help give you an approximate cost for your yard depending on square feet of turf.</p>
+                </div>
+                <button class="accordion">What all does your service include?</button>
+                <div class="panel">
+                    <p>We never cut corners. Because of that our service includes mowing and edging, as well as blowing the lawn clippings to allow airflow to your lawn. We also provide other services, which you can checkout at our <a href="services.html">Services</a> page!</p>
+                </div>
+                <button class="accordion">I have a yard emergency! Can you help?</button>
+                <div class="panel">
+                    <p>We pride ourselves on being ready to help our customers at a moment's notice. However, our priority goes first to those customers who have an appointment. We will do our best to help as soon as possible, which will be at most within 24-48 hours.</p>
+                </div>
+            </div>
+
+            <!-- Telephone button -->
+            <a href="tel:911" mypage="" class="call-now" rel="nofollow"><div
+                class="mypage-alo-phone"><div
+                class="animated infinite pulse mypage-alo-ph-circle-fill"></div><div
+                class="animated infinite tada mypage-alo-ph-img-circle"></div></div>
+            </a>
+
+        </main>
+        <footer>
+            <p>Competitive Landscaping &copy; 2023</p>
+            <p>Website by Dallin Hodgdon</p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+        </script>
+    </div>
+</body>
+</html>

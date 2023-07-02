@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/comp_landscaping.png" alt="Competitive Landscaping Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h1>Free Estimate Tool</h1>
+                <h3>How many square feet of turf is your yard?</h3>
+                <form>
+                    Square Feet of Turf : <input type="text" id="fn" /><br>
+    
+                    <input type="button" onClick="calculate()" Value="Calculate" />
+                </form>
+    
+                <p>The Result is : <br>
+                    $<span id = "result"></span>
+                </p>
+            </div>
+
+            <!-- Telephone button -->
+            <a href="tel:911" mypage="" class="call-now" rel="nofollow"><div
+                class="mypage-alo-phone"><div
+                class="animated infinite pulse mypage-alo-ph-circle-fill"></div><div
+                class="animated infinite tada mypage-alo-ph-img-circle"></div></div>
+            </a>
+
+        </main>
+        <footer>
+            <p>Competitive Landscaping &copy; 2023</p>
+            <p>Website by Dallin Hodgdon</p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+        <script>
+           function calculate()
+           {
+                square_feet_of_turf = document.getElementById("fn").value;
+                document.getElementById("result").innerHTML = (square_feet_of_turf * 0.01).toFixed(2);
+           }
+       </script>
+    </div>
+</body>
+</html>
