@@ -6,7 +6,7 @@ I created this project to improve my JavaScript skills and help a new start-up b
 
 This project is a website for a new landscaping business. There is an accordion menu created using JavaScript on the home page, the code for which I used from W3Schools (with my own styling). There is also a simple cost estimate calculator (also created with JavaScript) that can be found by clicking on the first item in the accordion menu and following the link. There is a Contact Us page that has a form, but it is not yet connected to an email, which I plan to do in the near future (see the list of Future Work below).
 
-[Software Demo Video](https://youtu.be/ya8kERrRapc)
+[Software Demo Video](https://youtu.be/_yyQ1AzXkqE)
 
 # Development Environment
 
